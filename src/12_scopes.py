@@ -5,6 +5,7 @@
 x = 12
 
 def changeX():
+    global x 
     x = 99
 
 changeX()
@@ -19,6 +20,7 @@ def outer():
     y = 120
 
     def inner():
+        nonlocal y  # this works in the terminal but not in VS Code, not sure why 
         y = 999
 
     inner()

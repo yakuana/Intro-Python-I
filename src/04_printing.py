@@ -23,4 +23,4 @@ print("x is {0}, y is {1:.3}, z is {2}".format(x, y, z))
 # interestingly enough this gives me an invalid syntax code in vscode but works fine in the terminal  
 # this may be due to version issues, but I am not sure yet 
 
-print(f"x is {x}, y is {y:.3}, z is {z}") 
+print(f"x is {x}, y is {y:.3}, z is {z}")

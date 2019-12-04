@@ -9,11 +9,11 @@ def prime(num):
         Uses modulo to check if the number returns a remainder. 
             Remainder = not divisible 
             No Remainder = divisible 
-        Checks if current number is not the input number.  t 
+        Checks if current number is not the input number.  
     """
 
-    for number in range(2, 10): 
-        if (num % number == 0) & (num != number):
+    for number in range(2, int(num/2)): 
+        if (num % number == 0):
            return False
     return True 
 
